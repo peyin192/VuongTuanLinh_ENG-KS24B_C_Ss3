@@ -12,5 +12,6 @@ int main(){
 	medium = a + b + c + d;
 	
 	printf("Tong la: %d", medium);
+	return 0;
 	
 }
