@@ -5,7 +5,7 @@ int main(){
 	printf("Nhap ban kinh hinh tron: ");
 	scanf("%f", &n);
 	circumference = 2 * n * 3.14;
-	area  = 4 * n * 3.14;
+	area  = n * n * 3.14;
 	
 	printf("Chu vi hinh tron la: %f",circumference );
 	printf("Dien tich hinh tron la: %f",area);
