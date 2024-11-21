@@ -3,7 +3,8 @@
 int main() {
     char name[101];
     printf("Nhap ten: ");
-    fgets(name, sizeof(name), stdin);
-    printf("Xin chao %s", name);
+    scanf("%s", &name);
+    printf("xin chao %s\n", name);
+    return 0;
 
 }
