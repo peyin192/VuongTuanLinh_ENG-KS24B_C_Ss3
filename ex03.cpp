@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main(){
-	int pi = 3.14;
 	float n,circumference,area;
 	printf("Nhap ban kinh hinh tron: ");
 	scanf("%f", &n);
